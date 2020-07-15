@@ -4,4 +4,16 @@
   grid-gap: $card-margin-right;
   justify-content: center;
   padding: 50px 0;
+
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(3, $card-width);
+  }
+
+  @media (max-width: 750px) {
+    grid-template-columns: repeat(2, $card-width);
+  }
+
+  @media (max-width: 650px) {
+    grid-template-columns: repeat(1, $card-width);
+  }
 }

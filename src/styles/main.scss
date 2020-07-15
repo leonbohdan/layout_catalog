@@ -1,7 +1,7 @@
 @import "variables";
 @import "reset";
 @import "header";
-@import "card-layout";
+@import "catalog";
 @import "nav";
 @import "card";
 @import "stars";
@@ -10,11 +10,4 @@ html {
   font-family: Roboto, sans-serif;
   font-size: 11px;
   line-height: 13px;
-}
-
-.main {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

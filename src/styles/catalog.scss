@@ -1,0 +1,7 @@
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(4, $card-width);
+  grid-gap: $card-margin-right;
+  justify-content: center;
+  padding: 50px 0;
+}
